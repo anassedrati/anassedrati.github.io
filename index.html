@@ -52,6 +52,34 @@
         .contact-info { margin-top: 10px; font-size: 0.95em; }
         .contact-info a { color: #2980b9; text-decoration: none; margin: 0 8px; }
         .contact-info a:hover { text-decoration: underline; }
+
+        /* NAVIGATION TABS STYLES */
+        .nav-tabs {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 25px;
+            margin-bottom: 25px;
+            border-bottom: 2px solid #edf2f7;
+            padding-bottom: 12px;
+        }
+        .nav-tabs a {
+            text-decoration: none;
+            font-size: 1.05em;
+            font-weight: 600;
+            color: #4a5568;
+            padding: 8px 18px;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+        .nav-tabs a:hover {
+            color: #2980b9;
+            background-color: #ebf8ff;
+        }
+        .nav-tabs a.active {
+            background-color: #2980b9;
+            color: #ffffff;
+        }
         
         .bio-text {
             font-size: 1.05em;
@@ -127,6 +155,12 @@
         <img src="Square_2026.jpg" alt="Anass Sedrati" class="profile-pic">
     </div>
 
+    <!-- NAVIGATION TABS -->
+    <nav class="nav-tabs">
+        <a href="index.html" class="active">About Me</a>
+        <a href="publications.html">Publications</a>
+    </nav>
+
     <!-- MAIN BIO CONTENT -->
     <div class="bio-text">
         <h2>Welcome to my page!</h2>
@@ -152,9 +186,9 @@
             </li>
         </ul>
         
-        <p>You can find my full list of publications in my <a href="https://scholar.google.com/citations?user=K5ZQSTYAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> or in the Publications list.</p>
+        <p>You can find my full list of publications in my <a href="https://scholar.google.com/citations?user=K5ZQSTYAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> or in the <a href="publications.html">Publications list</a>.</p>
     </div>
-    
+
 </div>
 
 </body>
