@@ -129,6 +129,42 @@
             padding-left: 15px;
         }
 
+        /* FUNDING TABLE STYLES */
+        .table-container {
+            width: 100%;
+            overflow-x: auto; /* Allows smooth horizontal scroll on smaller screens */
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+
+        .funding-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.95em;
+            background-color: #ffffff;
+        }
+
+        .funding-table th {
+            background-color: #2980b9;
+            color: #ffffff;
+            font-weight: 700;
+            text-align: left;
+            padding: 10px 12px;
+            border: 1px solid #2980b9;
+        }
+
+        .funding-table td {
+            color: #333333;
+            background-color: #ffffff;
+            padding: 10px 12px;
+            border: 1px solid #e2e8f0;
+            vertical-align: top;
+        }
+
+        .funding-table tr:hover td {
+            background-color: #f7fafc; /* Subtle row highlight on hover */
+        }
+
         /* Mobile adjustment for small screens */
         @media (max-width: 600px) {
             .header-container {
@@ -236,7 +272,7 @@
             </p>
         </div>
 
-        <h2>Service and leadership</h2>
+        <h2>Service and Leadership</h2>
 
         <div class="timeline-entry">
             <p class="timeline-date">2025 - Present</p>
@@ -246,7 +282,7 @@
             </p>
         </div>
 
-            <div class="timeline-entry">
+        <div class="timeline-entry">
             <p class="timeline-date">2022 - Present</p>
             <p class="timeline-content">
                 <b>AI Committee Voting Member</b>, Swedish Institute for Standards (SIS)<br>
@@ -263,15 +299,15 @@
         </div>
         
         <div class="timeline-entry">
-            <p class="timeline-date">2024-2025</p>
+            <p class="timeline-date">2024 - 2025</p>
             <p class="timeline-content">
-                <b>Member, Drafting Group for AI Act Code of Practice </b><br>
+                <b>Member, Drafting Group for AI Act Code of Practice</b><br>
                 Member of the drafting group for the AI Act Code of Practice launched by the AI Office (European Commission). The resulting Code of Practice details the AI Act rules for providers of general-purpose AI models, especially those with systemic risks.
             </p>
         </div>
 
-                <div class="timeline-entry">
-            <p class="timeline-date">2021-2024</p>
+        <div class="timeline-entry">
+            <p class="timeline-date">2021 - 2024</p>
             <p class="timeline-content">
                 <b>Voting Member, <a href="https://meta.wikimedia.org/wiki/Movement_Charter/Drafting_Committee" target="_blank" rel="noopener noreferrer">Movement Charter Drafting Committee</a></b>, Wikimedia<br>
                 Selected among the 15 people worldwide writing the Wikimedia movement charter (global governance document).
@@ -279,13 +315,49 @@
         </div>
         
         <h2>Funding and Projects</h2>
-
-        <div class="timeline-entry">
-            <p class="timeline-date">2016 – 2022</p>
-            <p class="timeline-content">
-                <b>Ph.D.</b>, INPT Rabat - Morocco<br>
-                Ph.D. in computer science with focus on security and governance of Internet of Things (IoT).
-            </p>
+        
+        <div class="table-container">
+            <table class="funding-table">
+                <thead>
+                    <tr>
+                        <th>Funding Organization</th>
+                        <th>Project Title</th>
+                        <th>PI</th>
+                        <th>Duration</th>
+                        <th>Grant (SEK)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><b>WASP-HS</b></td>
+                        <td>Understanding and Mitigating AI Manipulation - Nordic Workshop Series</td>
+                        <td>Sedrati (Anass)</td>
+                        <td>2027 – 2028</td>
+                        <td>500,000</td>
+                    </tr>
+                    <tr>
+                        <td><b>Vinnova</b></td>
+                        <td>AI in Action: Transforming Industry Through Scalable, Ethical and Sustainable Innovation [Pre Study]</td>
+                        <td>Ceccobello (RISE, co-PI)</td>
+                        <td>2025</td>
+                        <td>1,000,000</td>
+                    </tr>
+                    <tr>
+                        <td><b>Vinnova</b></td>
+                        <td>Legal and ethical analysis and operational guidelines for Virtual Reality</td>
+                        <td>Sedrati (RISE)</td>
+                        <td>2025 – 2026</td>
+                        <td>1,000,000</td>
+                    </tr>
+                    <tr>
+                        <td><b>Vinnova</b></td>
+                        <td>Capacity enhancement for more efficient AI regulation</td>
+                        <td>Sedrati (RISE)</td>
+                        <td>2024 – 2025</td>
+                        <td>1,000,000</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
         
     </div>
